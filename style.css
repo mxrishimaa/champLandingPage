@@ -1,7 +1,29 @@
 body {
     font-family: "Poppins";
 
+    #top {
+        color: rgb(44, 199, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #bottom {
+        color: rgb(238, 143, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .logo {
-        background: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        display: block;
+        width: 460px;
+        max-width: 100%;
     }
 }
